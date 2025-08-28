@@ -1,0 +1,10 @@
+چون پروژه قدیمی بود
+اول nvm نصب کردم(nvm-setup.exe)
+https://github.com/coreybutler/nvm-windows/releases
+بعد از نصب توی ترمینال پروژه:
+nvm install 16
+nvm use 16
+npm install
+npm start
+
+*پروژه با node 22 توی لوکال هاست بالا نمیاد

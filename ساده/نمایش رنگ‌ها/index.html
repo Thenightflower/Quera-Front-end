@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Color Test</title>
+    <style type="text/css">
+        #color_preview {
+            width: 200px;
+            height: 200px;
+            border: 1px solid grey;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Color Test</h1>
+    <input id="color_input" type="text" />
+    <br /><br />
+    <div id="color_preview"></div>
+
+    <script>
+        const input = document.getElementById('color_input');
+        const preview = document.getElementById('color_preview');
+
+        function isValidHex(hex) {
+            return /^([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/.test(hex);
+        }
+
+        input.addEventListener('input', () => {
+            let value = input.value.trim();
+
+            if (isValidHex(value)) {
+                if (value.length === 3) {
+                    value = value.split('').map(ch => ch + ch).join('');
+                }
+                preview.style.backgroundColor = `#${value}`;
+            } else {
+                preview.style.backgroundColor = 'black';
+            }
+        });
+    </script>
+</body>
+
+</html>

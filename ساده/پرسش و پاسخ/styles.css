@@ -1,0 +1,39 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 20px;
+}
+
+details {
+    background-color: #e4eaef;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: #30353b;
+    color: #fff9f1;
+    margin: 0;
+    padding: 8px;
+    border-radius: 5px;
+    animation: fadeIn 1s;
+
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}

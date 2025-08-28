@@ -1,0 +1,88 @@
+/* write your code here ... */
+main {
+    overflow: hidden;
+    width: 50rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    scroll-behavior: smooth;
+}
+
+form {
+    width: 60%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+main form>* {
+    margin-left: 30px;
+}
+
+label {
+    position: relative;
+}
+
+label>span {
+    font-size: 0.8rem;
+    display: block;
+}
+
+label>img {
+    width: 1.2rem;
+    position: absolute;
+    bottom: 10px;
+    left: -30px;
+}
+
+label>input {
+    background-color: var(--color--form-input-background);
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+
+}
+
+label>input:invalid {
+    background-color: var(--color--form-input-background--invalid);
+}
+
+button {
+    color: var(--color--form-button-foreground);
+    background-color: var(--color--form-button-background);
+    padding-block: 10px;
+}
+
+button:hover {
+    background-color: var(--color--form-button-background--hover);
+}
+
+p {
+    color: var(--color--form-paragraph-foreground);
+}
+
+a {
+    color: var(--color--form-link-foreground);
+    text-decoration: none;
+}
+
+
+section {
+    width: 40%;
+    padding: 2rem;
+
+}
+
+section>img {
+    width: 16rem;
+}
