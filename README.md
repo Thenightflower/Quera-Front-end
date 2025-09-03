@@ -26,11 +26,14 @@
 | ✅ 100%      | [وسط قرار دادن المان](https://quera.org/problemset/68275) | 22 |
 | ✅ 100%      | [محصولات](https://quera.org/problemset/66548) | 23 |
 | ✅ 100%      | [Input Mask](https://quera.org/problemset/66546) | 24 |
-| ✅ 100%      | [Background Color Switch](https://quera.org/problemset/49606) | 25 |
-| ✅ 100%      | [عکس تار](https://quera.org/problemset/33488) | 26 |
-| ✅ 100%      | [صفحه‌ی پاسخگو](https://quera.org/problemset/33043) | 27 |
-| ✅ 100%      | [خالی‌های رنگی](https://quera.org/problemset/21220) | 28 |
-| ✅ 100%      | [جدول‌بازی](https://quera.org/problemset/18850) | 29 |
-| ✅ 100%      | [نمایش رنگ‌ها](https://quera.org/problemset/15689) | 30 |
-| ✅ 100%      | [دوزیستان ناکام](https://quera.org/problemset/15688) | 31 |
-| ✅ 100%      | [ماشین‌حساب ساده](https://quera.org/problemset/15683) | 32 |
+| ✅ 100%      | [Auth Context](https://quera.org/problemset/66545) | 25 |
+| ✅ 100%      | [بازی XO](https://quera.org/problemset/66544) | 26 |
+| ✅ 100%      | [Background Color Switch](https://quera.org/problemset/49606) | 27 |
+| ✅ 100%      | [قلاب زمان‌سنج](https://quera.org/problemset/48370) | 28 |
+| ✅ 100%      | [عکس تار](https://quera.org/problemset/33488) | 29 |
+| ✅ 100%      | [صفحه‌ی پاسخگو](https://quera.org/problemset/33043) | 30 |
+| ✅ 100%      | [خالی‌های رنگی](https://quera.org/problemset/21220) | 31 |
+| ✅ 100%      | [جدول‌بازی](https://quera.org/problemset/18850) | 32 |
+| ✅ 100%      | [نمایش رنگ‌ها](https://quera.org/problemset/15689) | 33 |
+| ✅ 100%      | [دوزیستان ناکام](https://quera.org/problemset/15688) | 34 |
+| ✅ 100%      | [ماشین‌حساب ساده](https://quera.org/problemset/15683) | 35 |
