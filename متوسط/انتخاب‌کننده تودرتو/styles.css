@@ -1,0 +1,6 @@
+#container p{
+    color: indigo !important;
+}
+p:not(#container p){
+    color: indianred !important;
+}
