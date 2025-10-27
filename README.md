@@ -37,3 +37,4 @@
 | ✅ 100%      | [نمایش رنگ‌ها](https://quera.org/problemset/15689) | 33 |
 | ✅ 100%      | [دوزیستان ناکام](https://quera.org/problemset/15688) | 34 |
 | ✅ 100%      | [ماشین‌حساب ساده](https://quera.org/problemset/15683) | 35 |
+
